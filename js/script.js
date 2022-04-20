@@ -18,5 +18,5 @@ function calcVolume () {
   let volume = (4/3) * Math.PI * (side_a ** 3)
 
   // display the results
-  document.getElementById("volume").innerHTML = "The volume of the sphere is " + volume.toFixed(2) + "m³"
+  document.getElementById("volume").innerHTML = "The volume of the sphere is " + volume.toFixed(2) + "cm³"
 }
